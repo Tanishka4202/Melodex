@@ -1,0 +1,163 @@
+.container1{
+    position: relative;
+    background-color: rgb(49, 34, 104);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+@media only screen and (max-width: 900px){
+    #left{
+        margin-left: 220px;
+    }
+}
+#dummybg{
+    width: 94%;
+    position: absolute;
+    z-index: -1;
+}
+#intro{
+    width: 90%;
+    padding: 5px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+#nav{
+    width: 99%;
+    padding: 6px 2vw;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar{
+    position :relative;
+    display: flex;
+    align-items: center;
+}
+.searchbar input{
+    background-color:  rgb(26, 26, 26);
+    width: 30vw;
+    height: 36px;
+    border: none;
+    border-radius: 5px ;
+    padding: 4px;
+    padding-left: 38px;
+    color: white;
+}
+
+.searchicon{
+    width: 18px;
+    position: absolute;
+    left: 10px;
+}
+.us{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+.us a{
+    padding: 4px 8px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.us a:hover{
+    background-color: rgba(95, 95, 95, 0.423);
+    font-weight: 500;
+}
+
+.sign{
+    display: flex;
+    gap: 1vw;
+}
+
+.sign button{
+    border: 1px solid #EE10B0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sign button:hover{
+    font-weight: 600;
+}
+ 
+.login{
+    color: #EE10B0;
+    font-weight: 400;
+    padding: 5px 22px;
+    font-size: 16px;
+    background-color: transparent;
+}
+.signup{
+    font-weight: 400;
+    background-color: #EE10B0;
+    font-size: 16px;
+    color: white;
+    padding: 6px 18px;
+}
+
+#usdata{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    margin: 10px;
+    gap: 6vh;
+    position: static;
+}
+#usdata h1{
+    font-size: 2vw;
+}
+#usdata h1 span{
+    color: #EE10B0;
+}
+#usdata p{
+    font-size: 1.2vw;
+}
+
+#btn1{
+    display: flex;
+    gap: 1vw;
+}
+#btn1 button{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.discoverbtn:hover{
+    background-color: #b40a84;
+    border: 1px solid #b40a84;
+}
+.create:hover{
+    color: #0E9EEF;
+    border: 1px solid #0E9EEF;
+    background-color: rgba(53, 53, 53, 0.512);
+}
+.discoverbtn{
+    color: white;
+    border: 1px solid #EE10B0;
+    background-color: #EE10B0;
+}
+
+.create{
+    color: #0E9EEF;
+    border: 1px solid #0E9EEF;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+

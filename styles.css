@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", serif;;
+}
+body{
+    background-color: rgb(7, 7, 7);
+    color: white;
+    display: flex;
+}
+
+#right{
+    width: 18vw;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 30px 10px 36px 10px;
+    gap: 20px;
+    position: fixed;
+}
+#left{
+    /* background-color: aqua; */
+    border-left: 4px solid #EE10B0;
+    margin-left: 20vw;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 1vw;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.box img{
+    width: 18px;
+}
+
+.name h1{
+    background-image: linear-gradient(to right, #0E9EEF, #EE10B0);
+    background-size: 100%;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    cursor: not-allowed;
+}
+#right p{
+    font-size: 11px;
+    color: #EE10B0;
+}
+#right img{
+    filter: invert();
+}
+.box>div>div{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: 600;
+    font-size: smaller;
+}
+.box>div>div:hover{
+    font-weight: 800;
+    cursor: pointer;
+}
+.box>div{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+.logout{
+    color: #EE10B0;
+}
+.add_playlist{
+    color: #0E9EEF;
+ }
+/* For WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: black; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #EE10B0; /* Color of the draggable part */
+    border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Color of the thumb on hover */
+}
+
+/* For Firefox */
+.scrollable-element {
+    scrollbar-color: #555 black; /* Thumb color, Track color */
+    scrollbar-width: thin; /* Makes the scrollbar thinner */
+}
+
+@media (max-width: 1100px) {
+    #right{
+        /* background-color: red; */
+
+        z-index: 5;
+        position: absolute;
+        left: -100%;
+        transition: all 0.5s;
+        background-color: rgb(7, 7, 7);
+    }
+
+    #left{
+        /* background-color: aqua; */
+        width: 100vw;
+        margin-left: 0;
+    }
+    
+    
+}
+
+
+.footer{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #EE10B0;
+    padding: 10px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    /* background-color: #0E9EEF; */
+}
+.footer p{
+    font-size: 14px;
+    margin: 10px 0px;
+}
+.footer h3{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.footer #About_us{
+    /* background-color: red; */
+    max-width: 300px;
+    padding: 0px 10px;
+
+}
+.footer .features{
+    display: flex;
+    max-width: 450;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+}
+.footer p span:first-child{
+    color: #EE10B0;
+}
+.footer p span:nth-child(2){
+    color: #0E9EEF;
+}
+.features>div{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.social img{
+    filter: invert();
+    width: 30px;
+}
+.box2 h1{
+    font-size: 40px;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #EE10B0; */
+    gap: 15px;
+    margin-right: 20px;
+}
+.social{
+    display: flex;
+    gap: 15px;
+}
+.features h3{
+    border-bottom: 4px solid white;
+    padding: 0px 10px 16px 10px;
+}
+
+
+
+
+
+
+
+
+

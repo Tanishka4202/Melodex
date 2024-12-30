@@ -1,0 +1,9 @@
+.albums img{
+    width: 30px;
+}
+.albums{
+    background-color: #EE10B0;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+}
